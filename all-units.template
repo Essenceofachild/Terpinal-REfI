@@ -201,18 +201,18 @@ hidden:true
 #---------------        builder > prerequisite: Dark Drone research
 @global darkDrone:      700
 #---------------        ---
-@global mmt:            400
-@global beamCrab:       500
-@global mist:           575
-@global lightningBug:   700
-@global basicMech2:     850
-@global miniMLRS:       1000
-@global miniVLS:        1000
-@global miniBertha:     1200
+@global mmt:            350
+@global beamCrab:       450
+@global mist:           550
+@global lightningBug:   600
+@global basicMech2:     800
+@global miniMLRS:       950
+@global miniVLS:        1100
+@global miniBertha:     1300
 @global strider:        1000
-@global reparatorMech:  1500
-@global miniNapalm:     1300
-@global miniSamurai:    1800, MSamurai=1
+@global reparatorMech:  1400
+@global miniNapalm:     1250
+@global miniSamurai:    1500, MSamurai=1
 # Tier II
 #---------------        Air > prerequisite: T2 Mech gantry/Langley
 @global lighFlyingMecg: 1300
@@ -221,16 +221,16 @@ hidden:true
 #---------------        ---
 @global modMech:        3000
 @global honeyBadger:    3000
-@global langley:        5000
+@global langley:        6000
 @global gunMech:        5500
-@global ionMech:        5800
-@global brokenMech:     6400
+@global ionMech:        5300
+@global brokenMech:     6200
 @global mediumMT:       5500
-@global leyte:          7200
-@global ritter:         7200
+@global leyte:          5200
+@global ritter:         7000
 @global AArocketMech:   6000
-@global heavyAAMech:    8500
-@global type2Mech:      8000
+@global heavyAAMech:    8000
+@global type2Mech:      7750
 # Tier III
 @global athena:         7000
 @global tacticalMech:   7000

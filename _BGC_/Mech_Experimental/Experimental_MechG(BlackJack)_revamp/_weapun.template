@@ -6,7 +6,7 @@
 @global meleeModeCool: 10
 
 @global shield: 2000
-@global shieldregen: 0.5
+@global shieldregen: 0.25
 
 #----------------Photon kannon
 @global photonCannonDir: 700
