@@ -220,7 +220,7 @@ hidden:true
 @global bgBomberMech:   4500
 #---------------        ---
 @global modMech:        3000
-@global honeyBadger:    3000
+@global honeyBadger:    2750
 @global langley:        6000
 @global gunMech:        5500
 @global ionMech:        5300
@@ -232,26 +232,26 @@ hidden:true
 @global heavyAAMech:    8000
 @global type2Mech:      7750
 # Tier III
-@global athena:         7000
-@global tacticalMech:   7000
-@global rama:           9000
-@global odogaron:       12300
-@global heavyMT:        14000
-@global ATMech:         6000
-@global CamperMech:     13000
+@global athena:         6725
+@global tacticalMech:   6000
+@global rama:           9250
+@global odogaron:       17500
+@global heavyMT:        13000
+@global ATMech:         5500
+@global CamperMech:     13500
 # Tier IV
 @global type3Mech:      12000
-@global vigorous:       23000
-@global plasmaBeetle:   23000
-@global type4:          23000, uranium=75
+@global vigorous:       31000, uranium=250
+@global plasmaBeetle:   25000, uranium=150
+@global type4:          35000, uranium=200
 @global SamuraiX: 21000, uranium=1000
 # Tier V
-@global T4okhotnik:     55000, uranium=2750
-@global T4shokaku:      37500, uranium=800, SoaringCrane=1
+@global T4okhotnik:     65000, uranium=3000
+@global T4shokaku:      40000, uranium=800, SoaringCrane=1
 @global T5warpMech:     30000, uranium=750
 @global apolloOldPrice: 65000, uranium=3200
 # Experimental
-@global orion1: 8500, uranium=100
+@global orion1: 8500, uranium=150
 @global shikishinaPr:   44000, uranium=1666, samuraiSoulL=1     
 @global konig: 15000, uranium=400
 #================================Module Prices =====Donut touch dis
@@ -330,7 +330,7 @@ hidden:true
 #Black Jack camouflage, Option: 0 or 1
 # 0 -Default
 # 1 -German Iron Cross Camo
-@global camo_BlackJack: 0
+@global camo_BlackJack: 1
 #Apollo mk II, Option: Barrel: 0, 1, 2     GunHouse: 0, 1
 #barrel                   GunHouse
 # 0 -Default              0 -Default 
@@ -345,10 +345,10 @@ hidden:true
 #Apollo's core
 displayPos: 2
 displayName:Delta Core
-displayName_ru: Дельта-Ядро
+displayName_ru: Папогномий
 hidden:false
 displayNameShort:Delta-C
-displayNameShort_ru:Д-Ядро
+displayNameShort_ru:Папий
 displayColor:#f9a602
 displayWhenZero: false
 iconImage: ROOT:data\icons\module_shieldUpS.png
@@ -359,9 +359,9 @@ displayTextAppendResource:Widow
 @copyFromSection: global_resource_DeltaCore 
 #widow
 displayName: Arachnid Core
-displayName_ru: Арахнидное Ядро
+displayName_ru: Код Активации Шинды
 displayNameShort: Arc-Core
-displayNameShort_ru: А-Ядро
+displayNameShort_ru: КАШ
 hidden:true
 iconImage: ROOT:data\icons\module_shieldUp.png
 displayTextAppendResource:samuraiSoulL
@@ -434,9 +434,9 @@ displayTextAppendResource: IGNORE
 #@copyFromSection: global_resource_DeltaCore 
 #widow
 displayName: Arachnid Core+
-displayName_ru: Арахнидное Ядро+
+displayName_ru: Ядро Короны+
 displayNameShort: Arc-Core+
-displayNameShort_ru: А-Ядро+
+displayNameShort_ru: ЯК+
 hidden:true
 displayWhenZero: false
 displayTextAppendResource: IGNORE
