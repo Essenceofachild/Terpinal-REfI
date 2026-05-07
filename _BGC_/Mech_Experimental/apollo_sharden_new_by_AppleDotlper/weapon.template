@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 
 [core]
 
 @global MainCannonRange: 300
-=======
-
-[core]
-
-@global MainCannonRange: 300
->>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 @global secondaryRange: 240

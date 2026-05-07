@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 [core]
 builtFrom_1_name: NONE
 
 [action_relocate] 
 isVisible: if not self.hasFlag(id=6)
-=======
-[core]
-builtFrom_1_name: NONE
-
-[action_relocate] 
-isVisible: if not self.hasFlag(id=6)
->>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
