@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #_kills
 #ROOT:data\systems\_blackGuard_killSystem.template
 
 [core]
+=======
+#_kills
+#ROOT:data\systems\_blackGuard_killSystem.template
+
+[core]
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)

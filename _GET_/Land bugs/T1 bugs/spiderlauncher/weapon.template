@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 [core]
 
@@ -5,4 +6,13 @@
 #this one is used
 
 @global secondaryRange: 220
+=======
+
+[core]
+
+@global MainCannonRange: 280
+#this one is used
+
+@global secondaryRange: 220
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 #this one is just placeholder

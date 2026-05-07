@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #_rexon
 #ROOT:data\systems\_reconstructSystem.template
 
 [core]
+=======
+#_rexon
+#ROOT:data\systems\_reconstructSystem.template
+
+[core]
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)

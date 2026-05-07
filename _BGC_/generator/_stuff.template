@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #_stuff.template
 [core]
@@ -10,4 +11,18 @@ drawOverBody: true
 [arm_2]
 @copyFromSection: arm_1
 image_end: genBase_top.png
+=======
+
+#_stuff.template
+[core]
+#borrowResourcesWhileAlive: generatorL=1
+[arm_1]
+x: -0.4
+y: 0
+image_end: genBase_glow.png
+drawOverBody: true
+[arm_2]
+@copyFromSection: arm_1
+image_end: genBase_top.png
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 #pingPong:true 

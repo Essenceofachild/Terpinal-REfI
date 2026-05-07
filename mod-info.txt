@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [mod]
 title:  AUE.REfI [CE1]
 description: Это первая официальная версия REfI, ребаланс-форка мода AUE (который, в свою очередь, является переводом мода AEA unlimited warfare). Развлекайтесь!
@@ -9,3 +10,16 @@ thumbnail: mod-thumbnail.png
 sourceFolder: music
 whenUsingUnitsFromThisMod_playExclusively: true
 
+=======
+[mod]
+title:  AUE.REfI [CE6]
+description: Это ПЯТАЯ.ПЕРВАЯ официальная версия REfI, ребаланс-форка мода AUE (который, в свою очередь, является переводом мода AEA unlimited warfare). Развлекайтесь!
+tags: Units
+minVersion: 1.15p11
+thumbnail: mod-thumbnail.png
+
+[music]
+sourceFolder: music
+whenUsingUnitsFromThisMod_playExclusively: true
+
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)

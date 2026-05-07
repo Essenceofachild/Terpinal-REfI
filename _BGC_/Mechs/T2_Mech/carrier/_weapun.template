@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #_weapun.template
 [core]
@@ -12,4 +13,20 @@
 #------------------
 #@global unitPrice_IV: 4000
 @global unitBTime_IV: 42.8
+=======
+
+#_weapun.template
+[core]
+#@global unitPrice_I: 700
+@global unitBTime_I: 6.9
+#------------------
+#@global unitPrice_II: 1300
+@global unitBTime_II: 15
+#------------------
+#@global unitPrice_III: 2750
+@global unitBTime_III: 12.8
+#------------------
+#@global unitPrice_IV: 4000
+@global unitBTime_IV: 42.8
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 #------------------

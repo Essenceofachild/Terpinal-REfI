@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 
 #_weapun.template
 [core]
 @global dmg: 15
 @global range: 210
+=======
+
+#_weapun.template
+[core]
+@global dmg: 15
+@global range: 210
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)

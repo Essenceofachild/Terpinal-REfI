@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 [core]
 name: bug_gun_turret
@@ -39,3 +40,46 @@ frame: 6
 explodeEffect: CUSTOM:quiteSmallExplosion
 #lightColor: #00ff00
 #lightSize: 0.33
+=======
+
+[core]
+name: bug_gun_turret
+copyFrom: ROOT:/attach_turrets/turret.ini
+
+
+[graphics]
+imageScale:0.85
+turretImageScale:0.85
+
+[attack]
+canAttack: true
+canAttackFlyingUnits: true
+canAttackLandUnits:   true
+canAttackUnderwaterUnits: false
+
+
+
+[turret_secondary1]
+#I need to put these turret close to bug center, so that it can hit enemies beneath it rather than shaking like a fool.
+x: 0
+y: 5
+image: bug_gun_turret.png
+recoilOffset: -2
+recoilOutTime: 3
+recoilReturnTime: 6
+delay:12
+projectile:1
+limitingAngle: 80
+limitingRange: 300
+size: 9.5
+
+[projectile_1]
+directDamage: 24
+life: 80
+speed: 12
+drawSize: 0.84
+frame: 6
+explodeEffect: CUSTOM:quiteSmallExplosion
+#lightColor: #00ff00
+#lightSize: 0.33
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)

@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 [placementRule_minesdeleteself]
 if self.timeAlive(laterThanSeconds=15s) 
 deleteSelf: true
 
 [hiddenAction_realmine]
 autoTiggeOnEvent: completeAndActive
+=======
+[placementRule_minesdeleteself]
+if self.timeAlive(laterThanSeconds=15s) 
+deleteSelf: true
+
+[hiddenAction_realmine]
+autoTiggeOnEvent: completeAndActive
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 convertTo: landmineBuilt

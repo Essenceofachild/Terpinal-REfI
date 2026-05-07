@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 can Build t5 mechs and Capital destroyer mechs
+=======
+can Build t5 mechs and Capital destroyer mechs
+>>>>>>> 93c300b (Потужный патч, приведение до последнего писка моды, становление на путь CE6)
 can also build t1 - t5 mechs
