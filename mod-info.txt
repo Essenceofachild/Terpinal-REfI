@@ -1,6 +1,6 @@
 [mod]
 title:  AUE.REfI [CE6]
-description: Это ПЯТАЯ.ПЕРВАЯ официальная версия REfI, ребаланс-форка мода AUE (который, в свою очередь, является переводом мода AEA unlimited warfare). Развлекайтесь!
+description: Это Шестая уже неофициальная версия REfI, ребаланс-форка мода AUE (который, в свою очередь, является переводом мода AEA Unlimited Warfare). Удачи на полях уважений
 tags: Units
 minVersion: 1.15p11
 thumbnail: mod-thumbnail.png
