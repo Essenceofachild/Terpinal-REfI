@@ -584,3 +584,19 @@ temporarilyAddTags: repairmepls
 autoTrigger: if self.globalTeamTags(includes="NightmareAI") and self.tags(includes="repairmepls") and self.hp>=(self.maxHp*0.9)
 autoTriggerCheckRate: every8Frames
 temporarilyRemoveTags: repairmepls
+#=============================================== GIT STUFF =============================================================
+[global_resource_evolution]
+displayName: Evolution
+displayName_ru: Прогрев
+displayName_zh: 铀
+displayNameShort: Evo
+displayNameShort_ru: Эво
+hidden:false
+#displayPos: 1
+displayWhenZero: false
+displayColor: #94f02c
+#displayTextPrefix: Evo:  
+#displayTextPrefix_ru: Эво:
+displayNameHideWhenIconShownInText: true
+displayNameHideWhenIconShownInHUD: true
+iconImage: ROOT:data\icons\evo.png
