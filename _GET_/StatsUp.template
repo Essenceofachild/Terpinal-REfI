@@ -1,0 +1,43 @@
+dont_load: true
+#27-31 flags are reserved for effects, wankwank.
+#Evo progression: linear from 1 to x with x being an end multiplier. Anyway, the main idea is to make up to 5 lvls of evo. BTW, experimentals are no affected.
+#T1: 1-2 (or 1.75)
+#T2: 1-1.6
+#T3: 1-1.5
+[hiddenAction_HP_EVO1]
+autoTrigger: if self.globalTeamTags(includes=)
+setUnitStats: maxHp
+[hiddenAction_HP_EVO2]
+[hiddenAction_HP_EVO3]
+[hiddenAction_HP_EVO4]
+[hiddenAction_HP_EVO5]
+
+[hiddenAction_ARM_EVO1]
+[hiddenAction_ARM_EVO2]
+[hiddenAction_ARM_EVO3]
+[hiddenAction_ARM_EVO4]
+[hiddenAction_ARM_EVO5]
+
+[hiddenAction_RNG_EVO1]
+[hiddenAction_RNG_EVO2]
+[hiddenAction_RNG_EVO3]
+[hiddenAction_RNG_EVO4]
+[hiddenAction_RNG_EVO5]
+
+[hiddenAction_ATK_EVO1]
+[hiddenAction_ATK_EVO2]
+[hiddenAction_ATK_EVO3]
+[hiddenAction_ATK_EVO4]
+[hiddenAction_ATK_EVO5]
+
+[hiddenAction_SPD_EVO1]
+[hiddenAction_SPD_EVO2]
+[hiddenAction_SPD_EVO3]
+[hiddenAction_SPD_EVO4]
+[hiddenAction_SPD_EVO5]
+
+[hiddenAction_EXO_EVO1]
+[hiddenAction_EXO_EVO2]
+[hiddenAction_EXO_EVO3]
+[hiddenAction_EXO_EVO4]
+[hiddenAction_EXO_EVO5]
