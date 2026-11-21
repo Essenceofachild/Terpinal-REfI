@@ -18,12 +18,18 @@ displayType: infoOnlyNoBox
 isAlsoViewableByAllies: true
 isAlsoViewableByEnemies: true
 pos: 1
+#tripcode below, like, easy to understand, but written in very shitty way, imo
 [template_buffIcon_1]
-isVisible: if self.globalTeamTags(includes='T1${upType}') and not self.globalTeamTags(includes='T2${upType}') and not self.globalTeamTags(includes='T3${upType}') 
+isVisible: if self.globalTeamTags(includes='T1${upType}') and not self.globalTeamTags(includes='T2${upType}') and not self.globalTeamTags(includes='T3${upType}') and not self.globalTeamTags(includes='T4${upType}') and not self.globalTeamTags(includes='T5${upType}') 
 [template_buffIcon_2]
-isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and not self.globalTeamTags(includes='T3${upType}') 
+isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and not self.globalTeamTags(includes='T3${upType}') and not self.globalTeamTags(includes='T4${upType}') and not self.globalTeamTags(includes='T5${upType}')
 [template_buffIcon_3]
-isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and self.globalTeamTags(includes='T3${upType}') 
+isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and self.globalTeamTags(includes='T3${upType}') and not self.globalTeamTags(includes='T4${upType}') and not self.globalTeamTags(includes='T5${upType}')
+ [template_buffIcon_4]
+isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and not self.globalTeamTags(includes='T3${upType}') and self.globalTeamTags(includes='T4${upType}') and not self.globalTeamTags(includes='T5${upType}')
+[template_buffIcon_5]
+isVisible: if self.globalTeamTags(includes='T1${upType}') and self.globalTeamTags(includes='T2${upType}') and self.globalTeamTags(includes='T3${upType}') and self.globalTeamTags(includes='T4${upType}') and self.globalTeamTags(includes='T5${upType}')
+ 
 
 
 [template_areabuffIcon]
@@ -48,7 +54,7 @@ pos: 2
 [action_SmogHpBoost_buffIcon]
 @copyFromSection: template_areabuffIcon
 @define buffName: 			stat
-@define buffIcon:		 		bugIcon_sporeBuff
+@define buffIcon:		 	bugIcon_sporeBuff
 @define buffTAG:		 	omnispore
 @define buffArea:		 	350
 
@@ -61,7 +67,7 @@ pos: 2
 @copyFromSection: template_globalbuffIcon, template_buffIcon_1
 @define upName: 		Damage
 @define upLvl:  		1
-@define upIcon:		 	bugIcon_damageUp
+@define upIcon:		 bugIcon_damageUp
 @define upType:	    BugDamageUp
 description: -Improve the damage output
 #---------------------------------------------
@@ -72,6 +78,14 @@ description: -Improve the damage output
 [action_T3damageUpgrade_buffIcon]
 @copyFromSection: action_T1damageUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
+#---------------------------------------------
+[action_T4damageUpgrade_buffIcon]
+@copyFromSection: action_T1damageUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5damageUpgrade_buffIcon]
+@copyFromSection: action_T1damageUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 
 ####################################################START OF HEALTH UPGRADES################################
@@ -79,7 +93,7 @@ description: -Improve the damage output
 @copyFromSection: template_globalbuffIcon, template_buffIcon_1
 @define upName: 		Health
 @define upLvl:  		1
-@define upIcon:		 	bugIcon_healthUp
+@define upIcon:		 bugIcon_healthUp
 @define upType:	    BugHealthUp
 description: -Increase Hp pool
 #---------------------------------------------
@@ -90,14 +104,22 @@ description: -Increase Hp pool
 [action_T3HealthUpgrade_buffIcon]
 @copyFromSection: action_T1HealthUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
+#---------------------------------------------
+[action_T4HealthUpgrade_buffIcon]
+@copyFromSection: action_T1HealthUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5HealthUpgrade_buffIcon]
+@copyFromSection: action_T1HealthUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 
 ####################################################START OF SPEED UPGRADES################################
 [action_T1speedUpgrade_buffIcon]
 @copyFromSection: template_globalbuffIcon, template_buffIcon_1
-@define upName: 		Speed
+@define upName: 	    Speed
 @define upLvl:  		1
-@define upIcon:		 	bugIcon_speedUp
+@define upIcon:	    bugIcon_speedUp
 @define upType:	    BugspeedUp
 description: -Increase total speed 
 #---------------------------------------------
@@ -108,6 +130,14 @@ description: -Increase total speed
 [action_T3speedUpgrade_buffIcon]
 @copyFromSection: action_T1speedUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
+#---------------------------------------------
+[action_T4speedUpgrade_buffIcon]
+@copyFromSection: action_T1speedUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5speedUpgrade_buffIcon]
+@copyFromSection: action_T1speedUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 
 ####################################################START OF ARMOR UPGRADES################################
@@ -115,7 +145,7 @@ description: -Increase total speed
 @copyFromSection: template_globalbuffIcon, template_buffIcon_1
 @define upName: 		Armor
 @define upLvl:  		1
-@define upIcon:		 	bugIcon_armorUp
+@define upIcon:		 bugIcon_armorUp
 @define upType:	    BugarmourUp
 description: -Increase armor
 #---------------------------------------------
@@ -126,7 +156,14 @@ description: -Increase armor
 [action_T3armourUpgrade_buffIcon]
 @copyFromSection: action_T1armourUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
-
+#---------------------------------------------
+[action_T4armourUpgrade_buffIcon]
+@copyFromSection: action_T1armourUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5armourUpgrade_buffIcon]
+@copyFromSection: action_T1armourUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 ####################################################START OF RANGE UPGRADES################################
 [action_T1rangeUpgrade_buffIcon]
@@ -144,6 +181,14 @@ description: -Increase max range
 [action_T3rangeUpgrade_buffIcon]
 @copyFromSection: action_T1rangeUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
+#---------------------------------------------
+[action_T4rangeUpgrade_buffIcon]
+@copyFromSection: action_T1rangeUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5rangeUpgrade_buffIcon]
+@copyFromSection: action_T1rangeUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 
 ####################################################START OF EXO UPGRADES################################
@@ -151,7 +196,7 @@ description: -Increase max range
 @copyFromSection: template_globalbuffIcon, template_buffIcon_1
 @define upName: 		ExoSkeleton
 @define upLvl:  		1
-@define upIcon:		 	bugIcon_exoUp
+@define upIcon:		 bugIcon_exoUp
 @define upType:	    BugshieldUp
 text: ${upName} T${upLvl}
 description: -Gains Exoskeleton
@@ -163,8 +208,14 @@ description: -Gains Exoskeleton
 [action_T3shieldUpgrade_buffIcon]
 @copyFromSection: action_T1shieldUpgrade_buffIcon, template_buffIcon_3
 @define upLvl:  		3
-
-
+#---------------------------------------------
+[action_T4shieldUpgrade_buffIcon]
+@copyFromSection: action_T1shieldUpgrade_buffIcon, template_buffIcon_4
+@define upLvl:  		4
+#---------------------------------------------
+[action_T5shieldUpgrade_buffIcon]
+@copyFromSection: action_T1shieldUpgrade_buffIcon, template_buffIcon_5
+@define upLvl:  		5
 
 
 
